@@ -11,6 +11,25 @@ body{
     font-family:'Poppins', sans-serif;;
     background-color: grey;
 }
+
+
+
+.main-container{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+    /* border-radius: 20px; */
+    min-height: 100vh;
+    min-width: 350px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px white;
+
+    
+}
 .main-title_icons{
     display: flex;
     align-items: center;
@@ -33,24 +52,6 @@ body{
     color: bisque;
     text-shadow: 0 0 5px black;
 
-}
-
-
-.main-container{
-    overflow-y: scroll;
-    scrollbar-width: none;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    background-color: #ffffff;
-    border-radius: 20px;
-    min-height: 100vh;
-    min-width: 350px;
-    max-width: 500px;
-    margin: 0 auto;
-    box-shadow: 0 0 5px white;
-
-    
 }
 
 .categories-container{
@@ -222,4 +223,24 @@ body{
     margin-left: 1em;
 
 
+}
+
+.footer{
+    /* position: fixed; */
+    position: fixed;
+    bottom: 0;
+    border: 2px solid black;
+    min-width: 350px;
+    width: 500px;
+    display: flex;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    justify-content: center;
+    
+
+}
+.footer h1{
+   /* font-family: "Lobster"; */
+   letter-spacing: 1rem;
 }
